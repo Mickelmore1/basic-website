@@ -1,0 +1,173 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+.header, .hero, .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 24px 250px;
+    flex-shrink: 1;
+
+}
+
+.body, .quote, .call-to-action {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 250px;
+    flex-shrink: 1;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding-bottom: 64px;
+    gap: 64px;
+}
+
+.body, .quote {
+    flex-direction: column;
+}
+
+.call-background {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 32px 24px;
+    gap: 64px;
+}
+
+.call-box {
+    color: #f9faf8;
+}
+h3 {
+   margin: 0;
+   padding: 0;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-author {
+    align-content: flex-end;
+    font-weight: 900;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    width: 100px;
+
+}
+
+
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 8px;
+}
+
+
+.sign-up1, .sign-up2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 128px;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.sign-up1 {
+    border: none;
+}
+
+.sign-up2 {
+    border-color: #f9faf8;
+    border-style: solid;
+    padding: 8px;
+    height: 32px;
+}
+
+.header2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-top: 32px
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.car {
+    max-width: 300px;
+}
+
+.text {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.redbull {
+    max-height: 180px;
+    max-width: 320px;  
+}
